@@ -1,0 +1,162 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L adapter-rescue:CONN_6 P1
+U 1 1 526DE759
+P 2100 3800
+F 0 "P1" V 2050 3800 60  0000 C CNN
+F 1 "TO BOARD" V 2150 3800 60  0000 C CNN
+F 2 "" H 2100 3800 60  0000 C CNN
+F 3 "" H 2100 3800 60  0000 C CNN
+	1    2100 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L adapter-rescue:CONN_5X2 P2
+U 1 1 526DE768
+P 4700 3800
+F 0 "P2" H 4700 4100 60  0000 C CNN
+F 1 "PROG5x2" V 4700 3800 50  0000 C CNN
+F 2 "" H 4700 3800 60  0000 C CNN
+F 3 "" H 4700 3800 60  0000 C CNN
+	1    4700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3700 5100 3800
+$Comp
+L adapter-rescue:GND #PWR01
+U 1 1 526DE779
+P 5100 4100
+F 0 "#PWR01" H 5100 4100 30  0001 C CNN
+F 1 "GND" H 5100 4030 30  0001 C CNN
+F 2 "" H 5100 4100 60  0000 C CNN
+F 3 "" H 5100 4100 60  0000 C CNN
+	1    5100 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3550 2700 3550
+Wire Wire Line
+	2450 3650 2850 3650
+Wire Wire Line
+	2850 3650 2850 3700
+Wire Wire Line
+	2450 3750 2700 3750
+Wire Wire Line
+	2450 3850 2700 3850
+Wire Wire Line
+	2450 3950 2700 3950
+Wire Wire Line
+	2450 4050 2700 4050
+Text Label 2500 3550 0    60   ~ 0
+RESET
+Text Label 2500 3750 0    60   ~ 0
+SCLK
+Text Label 2500 3850 0    60   ~ 0
+MISO
+Text Label 2500 3950 0    60   ~ 0
+MOSI
+Text Label 2500 4050 0    60   ~ 0
+VCC
+Wire Wire Line
+	5100 3600 5350 3600
+Wire Wire Line
+	4300 3600 4050 3600
+Wire Wire Line
+	4300 3800 4050 3800
+Wire Wire Line
+	4300 3900 4050 3900
+Wire Wire Line
+	4300 4000 4050 4000
+NoConn ~ 4300 3700
+Text Label 4050 3600 0    60   ~ 0
+MOSI
+Text Label 4050 3800 0    60   ~ 0
+RESET
+Text Label 4050 3900 0    60   ~ 0
+SCLK
+Text Label 4050 4000 0    60   ~ 0
+MISO
+Text Label 5100 3600 0    60   ~ 0
+VCC
+$Comp
+L adapter-rescue:GND #PWR02
+U 1 1 526DE755
+P 2850 3700
+F 0 "#PWR02" H 2850 3700 30  0001 C CNN
+F 1 "GND" H 2850 3630 30  0001 C CNN
+F 2 "" H 2850 3700 60  0000 C CNN
+F 3 "" H 2850 3700 60  0000 C CNN
+	1    2850 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 3800
+Connection ~ 5100 3900
+Connection ~ 5100 4000
+$Comp
+L adapter-rescue:CONN_3X2 P3
+U 1 1 526DEAF1
+P 7200 3800
+F 0 "P3" H 7200 4050 50  0000 C CNN
+F 1 "PROG3x2" V 7200 3850 40  0000 C CNN
+F 2 "" H 7200 3800 60  0000 C CNN
+F 3 "" H 7200 3800 60  0000 C CNN
+	1    7200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3650 6550 3650
+Wire Wire Line
+	6800 3750 6550 3750
+Wire Wire Line
+	6800 3850 6550 3850
+Wire Wire Line
+	7600 3750 7850 3750
+Wire Wire Line
+	7600 3650 7850 3650
+Text Label 6550 3650 0    60   ~ 0
+MISO
+Text Label 6550 3750 0    60   ~ 0
+SCLK
+Text Label 6550 3850 0    60   ~ 0
+RESET
+Text Label 7600 3650 0    60   ~ 0
+VCC
+Text Label 7600 3750 0    60   ~ 0
+MOSI
+Wire Wire Line
+	7600 3850 7650 3850
+Wire Wire Line
+	7650 3850 7650 3900
+$Comp
+L adapter-rescue:GND #PWR?
+U 1 1 526DEB91
+P 7650 3900
+F 0 "#PWR?" H 7650 3900 30  0001 C CNN
+F 1 "GND" H 7650 3830 30  0001 C CNN
+F 2 "" H 7650 3900 60  0000 C CNN
+F 3 "" H 7650 3900 60  0000 C CNN
+	1    7650 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3800 5100 3900
+Wire Wire Line
+	5100 3900 5100 4000
+Wire Wire Line
+	5100 4000 5100 4100
+$EndSCHEMATC

@@ -1,0 +1,486 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power-rescue:DIODE-power-rescue D3
+U 1 1 526B32D0
+P 2500 3250
+F 0 "D3" H 2500 3350 40  0000 C CNN
+F 1 "1N4002" H 2500 3150 40  0000 C CNN
+F 2 "" H 2500 3250 60  0000 C CNN
+F 3 "" H 2500 3250 60  0000 C CNN
+	1    2500 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-rescue:DIODE-power-rescue D4
+U 1 1 526B32DF
+P 2900 3250
+F 0 "D4" H 2900 3350 40  0000 C CNN
+F 1 "1N4002" H 2900 3150 40  0000 C CNN
+F 2 "" H 2900 3250 60  0000 C CNN
+F 3 "" H 2900 3250 60  0000 C CNN
+	1    2900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:DIODE-power-rescue D1
+U 1 1 526B32EE
+P 2500 2850
+F 0 "D1" H 2500 2950 40  0000 C CNN
+F 1 "1N4002" H 2500 2750 40  0000 C CNN
+F 2 "" H 2500 2850 60  0000 C CNN
+F 3 "" H 2500 2850 60  0000 C CNN
+	1    2500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:DIODE-power-rescue D2
+U 1 1 526B32FD
+P 2900 2850
+F 0 "D2" H 2900 2950 40  0000 C CNN
+F 1 "1N4002" H 2900 2750 40  0000 C CNN
+F 2 "" H 2900 2850 60  0000 C CNN
+F 3 "" H 2900 2850 60  0000 C CNN
+	1    2900 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-rescue:GND-power-rescue #PWR01
+U 1 1 526B33BB
+P 2700 3500
+F 0 "#PWR01" H 2700 3500 30  0001 C CNN
+F 1 "GND" H 2700 3430 30  0001 C CNN
+F 2 "" H 2700 3500 60  0000 C CNN
+F 3 "" H 2700 3500 60  0000 C CNN
+	1    2700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:R-power-rescue R1
+U 1 1 526B33D9
+P 3850 2850
+F 0 "R1" V 3930 2850 40  0000 C CNN
+F 1 "10" V 3857 2851 40  0000 C CNN
+F 2 "" V 3780 2850 30  0000 C CNN
+F 3 "" H 3850 2850 30  0000 C CNN
+	1    3850 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power-rescue:R-power-rescue R2
+U 1 1 526B33FC
+P 3850 2500
+F 0 "R2" V 3930 2500 40  0000 C CNN
+F 1 "2.2k" V 3857 2501 40  0000 C CNN
+F 2 "" V 3780 2500 30  0000 C CNN
+F 3 "" H 3850 2500 30  0000 C CNN
+	1    3850 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power-rescue:DIODE-power-rescue D5
+U 1 1 526B3477
+P 5350 2850
+F 0 "D5" H 5350 2950 40  0000 C CNN
+F 1 "1N5400" H 5350 2750 40  0000 C CNN
+F 2 "" H 5350 2850 60  0000 C CNN
+F 3 "" H 5350 2850 60  0000 C CNN
+	1    5350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:CAPAPOL-power-rescue C1
+U 1 1 526B34EC
+P 4650 3250
+F 0 "C1" H 4700 3350 40  0000 L CNN
+F 1 "2200u" H 4700 3150 40  0000 L CNN
+F 2 "" H 4750 3100 30  0000 C CNN
+F 3 "" H 4650 3250 300 0000 C CNN
+	1    4650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:GND-power-rescue #PWR02
+U 1 1 526B352C
+P 4650 3800
+F 0 "#PWR02" H 4650 3800 30  0001 C CNN
+F 1 "GND" H 4650 3730 30  0001 C CNN
+F 2 "" H 4650 3800 60  0000 C CNN
+F 3 "" H 4650 3800 60  0000 C CNN
+	1    4650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:R-power-rescue R3
+U 1 1 526B354D
+P 5000 3100
+F 0 "R3" V 5080 3100 40  0000 C CNN
+F 1 "200k" V 5007 3101 40  0000 C CNN
+F 2 "" V 4930 3100 30  0000 C CNN
+F 3 "" H 5000 3100 30  0000 C CNN
+	1    5000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:R-power-rescue R4
+U 1 1 526B355C
+P 5000 3600
+F 0 "R4" V 5080 3600 40  0000 C CNN
+F 1 "12k" V 5007 3601 40  0000 C CNN
+F 2 "" V 4930 3600 30  0000 C CNN
+F 3 "" H 5000 3600 30  0000 C CNN
+	1    5000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:GND-power-rescue #PWR03
+U 1 1 526B35A5
+P 5000 3850
+F 0 "#PWR03" H 5000 3850 30  0001 C CNN
+F 1 "GND" H 5000 3780 30  0001 C CNN
+F 2 "" H 5000 3850 60  0000 C CNN
+F 3 "" H 5000 3850 60  0000 C CNN
+	1    5000 3850
+	1    0    0    -1  
+$EndComp
+Text Label 5800 2850 0    60   ~ 0
+COILPULSE
+Text Label 5300 3350 0    60   ~ 0
+COILV
+Text Notes 1300 2700 0    60   ~ 0
+15VAC
+$Comp
+L power-rescue:DIODE-power-rescue D6
+U 1 1 526B3741
+P 3750 4400
+F 0 "D6" H 3750 4500 40  0000 C CNN
+F 1 "1N4002" H 3750 4300 40  0000 C CNN
+F 2 "" H 3750 4400 60  0000 C CNN
+F 3 "" H 3750 4400 60  0000 C CNN
+	1    3750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:CAPAPOL-power-rescue C2
+U 1 1 526B375A
+P 4750 4800
+F 0 "C2" H 4800 4900 40  0000 L CNN
+F 1 "470u" H 4800 4700 40  0000 L CNN
+F 2 "" H 4850 4650 30  0000 C CNN
+F 3 "" H 4750 4800 300 0000 C CNN
+	1    4750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:GND-power-rescue #PWR04
+U 1 1 526B37F4
+P 4750 5150
+F 0 "#PWR04" H 4750 5150 30  0001 C CNN
+F 1 "GND" H 4750 5080 30  0001 C CNN
+F 2 "" H 4750 5150 60  0000 C CNN
+F 3 "" H 4750 5150 60  0000 C CNN
+	1    4750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:7805-power-rescue U1
+U 1 1 526B37FC
+P 5300 4450
+F 0 "U1" H 5450 4254 60  0000 C CNN
+F 1 "7805" H 5300 4650 60  0000 C CNN
+F 2 "" H 5300 4450 60  0000 C CNN
+F 3 "" H 5300 4450 60  0000 C CNN
+	1    5300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:GND-power-rescue #PWR05
+U 1 1 526B384B
+P 5300 5150
+F 0 "#PWR05" H 5300 5150 30  0001 C CNN
+F 1 "GND" H 5300 5080 30  0001 C CNN
+F 2 "" H 5300 5150 60  0000 C CNN
+F 3 "" H 5300 5150 60  0000 C CNN
+	1    5300 5150
+	1    0    0    -1  
+$EndComp
+Text Label 6450 4000 0    60   ~ 0
+LEDPWR
+Text Label 6450 4400 0    60   ~ 0
+VCC
+$Comp
+L power-rescue:CAPAPOL-power-rescue C3
+U 1 1 526B38F6
+P 5700 4800
+F 0 "C3" H 5750 4900 40  0000 L CNN
+F 1 "47u" H 5750 4700 40  0000 L CNN
+F 2 "" H 5800 4650 30  0000 C CNN
+F 3 "" H 5700 4800 300 0000 C CNN
+	1    5700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:C-power-rescue C4
+U 1 1 526B390F
+P 6200 4800
+F 0 "C4" H 6200 4900 40  0000 L CNN
+F 1 ".1u" H 6206 4715 40  0000 L CNN
+F 2 "" H 6238 4650 30  0000 C CNN
+F 3 "" H 6200 4800 60  0000 C CNN
+	1    6200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:GND-power-rescue #PWR06
+U 1 1 526B39F1
+P 5700 5150
+F 0 "#PWR06" H 5700 5150 30  0001 C CNN
+F 1 "GND" H 5700 5080 30  0001 C CNN
+F 2 "" H 5700 5150 60  0000 C CNN
+F 3 "" H 5700 5150 60  0000 C CNN
+	1    5700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:GND-power-rescue #PWR07
+U 1 1 526B39F7
+P 6200 5150
+F 0 "#PWR07" H 6200 5150 30  0001 C CNN
+F 1 "GND" H 6200 5080 30  0001 C CNN
+F 2 "" H 6200 5150 60  0000 C CNN
+F 3 "" H 6200 5150 60  0000 C CNN
+	1    6200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:MJE13003-power-rescue Q1
+U 1 1 526DB574
+P 4400 2750
+F 0 "Q1" H 4400 2600 40  0000 R CNN
+F 1 "MJE3055T" H 4400 2900 40  0000 R CNN
+F 2 "TO225" H 4280 2850 29  0001 C CNN
+F 3 "" H 4400 2750 60  0000 C CNN
+	1    4400 2750
+	0    -1   1    0   
+$EndComp
+$Comp
+L power-rescue:CONN_3-power-rescue P1
+U 1 1 526F102A
+P 1450 2950
+F 0 "P1" V 1400 2950 50  0000 C CNN
+F 1 "15VAC" V 1500 2950 40  0000 C CNN
+F 2 "" H 1450 2950 60  0000 C CNN
+F 3 "" H 1450 2950 60  0000 C CNN
+	1    1450 2950
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 1800 2950
+$Comp
+L power-rescue:GND-power-rescue #PWR08
+U 1 1 526F1BE7
+P 8300 3550
+F 0 "#PWR08" H 8300 3550 30  0001 C CNN
+F 1 "GND" H 8300 3480 30  0001 C CNN
+F 2 "" H 8300 3550 60  0000 C CNN
+F 3 "" H 8300 3550 60  0000 C CNN
+	1    8300 3550
+	1    0    0    -1  
+$EndComp
+Text Label 8500 3550 0    60   ~ 0
+COILV
+Text Label 8500 3350 0    60   ~ 0
+VCC
+$Comp
+L power-rescue:GND-power-rescue #PWR09
+U 1 1 526F2E78
+P 8600 5200
+F 0 "#PWR09" H 8600 5200 30  0001 C CNN
+F 1 "GND" H 8600 5130 30  0001 C CNN
+F 2 "" H 8600 5200 60  0000 C CNN
+F 3 "" H 8600 5200 60  0000 C CNN
+	1    8600 5200
+	1    0    0    -1  
+$EndComp
+Text Label 8150 5000 0    60   ~ 0
+COILPULSE
+$Comp
+L power-rescue:CONN_1-power-rescue P4
+U 1 1 526F2EED
+P 7050 4000
+F 0 "P4" H 7130 4000 40  0000 L CNN
+F 1 "LEDPWR" H 7050 4055 30  0001 C CNN
+F 2 "" H 7050 4000 60  0000 C CNN
+F 3 "" H 7050 4000 60  0000 C CNN
+	1    7050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2850 2300 3250
+Wire Wire Line
+	3100 2850 3100 3050
+Wire Wire Line
+	1800 2850 2300 2850
+Wire Wire Line
+	2700 3250 2700 3500
+Wire Wire Line
+	2700 2850 2700 2500
+Wire Wire Line
+	1800 3050 3100 3050
+Connection ~ 3100 3050
+Wire Wire Line
+	2700 2500 3350 2500
+Wire Wire Line
+	3600 2850 3350 2850
+Wire Wire Line
+	3350 2500 3350 2850
+Connection ~ 3350 2500
+Wire Wire Line
+	4100 2850 4200 2850
+Wire Wire Line
+	4100 2500 4400 2500
+Wire Wire Line
+	4400 2500 4400 2550
+Wire Wire Line
+	4600 2850 4650 2850
+Connection ~ 4400 2500
+Wire Wire Line
+	5550 2850 6300 2850
+Wire Wire Line
+	4650 3450 4650 3800
+Connection ~ 2700 2850
+Connection ~ 2700 3250
+Wire Wire Line
+	5000 3350 6300 3350
+Connection ~ 5550 2850
+Wire Wire Line
+	4650 3050 4650 2850
+Connection ~ 4650 2850
+Connection ~ 3350 2850
+Wire Wire Line
+	3950 4400 4350 4400
+Wire Wire Line
+	4750 5000 4750 5150
+Connection ~ 4750 4400
+Wire Wire Line
+	5300 4700 5300 5150
+Wire Wire Line
+	4750 4000 6900 4000
+Wire Wire Line
+	5700 4400 6200 4400
+Wire Wire Line
+	5700 4600 5700 4400
+Connection ~ 5700 4400
+Wire Wire Line
+	5700 5000 5700 5150
+Wire Wire Line
+	6200 5000 6200 5150
+Wire Wire Line
+	6200 4600 6200 4400
+Connection ~ 6200 4400
+Wire Wire Line
+	3350 4400 3550 4400
+Wire Wire Line
+	5550 2500 5550 2850
+Connection ~ 5000 3350
+Connection ~ 5000 2850
+Wire Wire Line
+	8750 3550 8500 3550
+Wire Wire Line
+	8750 3350 8500 3350
+Wire Wire Line
+	8750 3450 8300 3450
+Wire Wire Line
+	8300 3450 8300 3550
+Wire Wire Line
+	8750 5000 8150 5000
+Wire Wire Line
+	4750 4000 4750 4400
+$Comp
+L power-rescue:CONN_3-power-rescue P3
+U 1 1 526FEC42
+P 9100 5100
+F 0 "P3" V 9050 5100 50  0000 C CNN
+F 1 "SWPWR" V 9150 5100 40  0000 C CNN
+F 2 "" H 9100 5100 60  0000 C CNN
+F 3 "" H 9100 5100 60  0000 C CNN
+	1    9100 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5100 8600 5100
+Wire Wire Line
+	8600 5100 8600 5200
+NoConn ~ 8750 5200
+$Comp
+L power-rescue:CONN_4-power-rescue P2
+U 1 1 526FECCA
+P 9100 3500
+F 0 "P2" V 9050 3500 50  0000 C CNN
+F 1 "PWR" V 9150 3500 50  0000 C CNN
+F 2 "" H 9100 3500 60  0000 C CNN
+F 3 "" H 9100 3500 60  0000 C CNN
+	1    9100 3500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8750 3650
+$Comp
+L power-rescue:C-power-rescue C5
+U 1 1 527045D8
+P 4350 4800
+F 0 "C5" H 4350 4900 40  0000 L CNN
+F 1 ".33u" H 4356 4715 40  0000 L CNN
+F 2 "" H 4388 4650 30  0000 C CNN
+F 3 "" H 4350 4800 60  0000 C CNN
+	1    4350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-rescue:GND-power-rescue #PWR?
+U 1 1 52704600
+P 4350 5150
+F 0 "#PWR?" H 4350 5150 30  0001 C CNN
+F 1 "GND" H 4350 5080 30  0001 C CNN
+F 2 "" H 4350 5150 60  0000 C CNN
+F 3 "" H 4350 5150 60  0000 C CNN
+	1    4350 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5000 4350 5150
+Wire Wire Line
+	4350 4600 4350 4400
+Connection ~ 4350 4400
+Wire Wire Line
+	3100 3050 3100 3250
+Wire Wire Line
+	3350 2500 3600 2500
+Wire Wire Line
+	4400 2500 5550 2500
+Wire Wire Line
+	4650 2850 5000 2850
+Wire Wire Line
+	3350 2850 3350 4400
+Wire Wire Line
+	4750 4400 4900 4400
+Wire Wire Line
+	4750 4400 4750 4600
+Wire Wire Line
+	6200 4400 6900 4400
+Wire Wire Line
+	5000 2850 5150 2850
+Wire Wire Line
+	4350 4400 4750 4400
+$EndSCHEMATC
